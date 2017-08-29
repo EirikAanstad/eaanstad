@@ -1,18 +1,53 @@
 body{
+    display: block;
     background-color: black !important;
     color: white;
 }
 
-nav ul{
-    list-style-type: none; /* removes dots infront of a list*/
+header, nav, footer, #MainContent{
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
 }
 
-nav li{
-    float: left; /* makes the list elements line vertically */
+h1 {
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
-nav li a{
-    text-decoration: none; /* removes underline */
-    color: white; /* makes the text white instead of the default link color blue */
-    display: block;
+nav a{
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
 }
+
+nav a:hover{
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+aside, figure{
+    float: left;
+}
+
+aside{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 250px;
+    font-size: 1.3em;
+}
+
+
+
+#me img{
+    border-radius: 100px;
+}
+
+footer{
+    clear: left;
+}
+

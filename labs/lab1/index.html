@@ -13,6 +13,7 @@ in html
 <!-- All styles and javascript go inside the head -->
     <head>
         <link rel="Stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset = "utf=8">
         <title>Eirik Portfolio</title>
     </head>
@@ -26,26 +27,36 @@ in html
         </header>
         <nav>
             <hr width="50%">
-            <ul>
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
+            <a href="Index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
         </nav>
-        
         <br />
         <br />
-        
-        <main>
-            <figure>
-                <img src="img/juan_doe.png" alt="picture of me" />    
+        <div id="MainContent">
+            <figure id="me">
+                <img src="img/Eirik.jpg" alt="picture of me" />    
             </figure>
             
-            <div>
-                <strong> </strong>
-            </div>
+            <aside id="WelcomeText">
+                Hello
+                <br>
+                <br>
+                Thank you for visiting my portfolio webpage.
+                I am a Computer Science major student at HSN Norway, 
+                <br>
+                <br>
+                but i am currently attending CSUMB 
+                <br>
+                through an exhangestudent program.
+                <br>
+                <br>
+                <em>"With great <strong>power</strong>
+                comes great <strong>responsibility"</Strong></em><br />
+                -Uncle Ben
+            </aside>
             
-        </main>
+        </div>
         
         
         <!-- This is the footer -->
