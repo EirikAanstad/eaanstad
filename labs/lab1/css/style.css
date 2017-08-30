@@ -35,7 +35,7 @@ aside, figure{
     float: left;
 }
 
-aside{
+aside p{
     text-align: left;
     padding-left: 10px;
     padding-top: 15px;
