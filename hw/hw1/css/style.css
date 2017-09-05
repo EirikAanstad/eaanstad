@@ -2,6 +2,7 @@ body {
     Background-color: white !important;
     color: black;
     margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
 }
 
 header, footer{
@@ -49,6 +50,15 @@ h1{
     font-family: 'Roboto Slab', serif;
 }
 
+.button {
+    text-decoration: none;
+    background-color: #00008B;
+    color: white;
+    padding: 4px 10px 4px 10px;
+    font-size: 1.3em;
+}
+
+
 
 .maincontent{
     width: 720px;
@@ -61,7 +71,7 @@ aside{
 }
 
 hr{
- color = "#00008B";
+ color: #00008B;
 }
 
 #content{
