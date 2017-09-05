@@ -74,11 +74,18 @@ hr{
  color: #00008B;
 }
 
-#content{
+#gamescontent{
     width: 920px;
     margin: 0 auto;
     text-align: center;
 }
+
+#blizzconcontent{
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 #blizzconvideo {
     float: left;
     margin-right: 15px;
@@ -87,6 +94,12 @@ hr{
 #blizzcontext{
     display: block;
     font-family: 'Roboto Slab', serif;
+    text-align: left;
+}
+
+iframe{
+    width: 560px; 
+    height: 315px;
 }
 
 .text {
