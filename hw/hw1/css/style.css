@@ -38,6 +38,7 @@ li a:hover {
     background-color: #00B4FF;
 }
 
+
 .active {
     background-color: #00B4FF;
 }
@@ -49,10 +50,18 @@ h1{
 }
 
 
-#mainContent{
+.maincontent{
     width: 720px;
     margin: 0 auto;
     text-align: center;
+}
+
+aside{
+    font-family: 'Roboto Slab', serif;
+}
+
+hr{
+ color = "#00008B";
 }
 
 #content{
@@ -65,7 +74,7 @@ h1{
     margin-right: 15px;
 }
 
-#blizzcontxt{
+#blizzcontext{
     display: block;
     font-family: 'Roboto Slab', serif;
 }
