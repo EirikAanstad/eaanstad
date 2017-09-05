@@ -1,0 +1,99 @@
+body {
+    Background-color: white !important;
+    color: black;
+    margin: 0 auto;
+}
+
+header, footer{
+    text-align: center;
+}
+
+header{
+    margin-top: 55px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00008B;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    border: solid 2px #00008B;
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00B4FF;
+}
+
+.active {
+    background-color: #00B4FF;
+}
+
+h1{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+#mainContent{
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#content{
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+}
+#blizzconvideo {
+    float: left;
+    margin-right: 15px;
+}
+
+#blizzcontxt{
+    display: block;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text {
+    text-align: left;
+    font-size: .8em;
+}
+.game{
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.gamelogo {
+    float: left;
+    margin-right: 15px;
+}
+
+.gametext{
+    display: block;
+}
+
+
+
+footer{
+    margin-top: 10%;
+    clear: left;
+    font-size: .7em;
+}
