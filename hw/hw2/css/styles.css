@@ -48,11 +48,6 @@ input:hover {
     background-color: rgba(131, 92, 59, 0.4);
 }
 
-#content:hover{
-    background-color: rgba(131, 92, 59, 1);
-    transition: 1s;
-}
-
 #nameMeaning {
     height: 150px;
 }
