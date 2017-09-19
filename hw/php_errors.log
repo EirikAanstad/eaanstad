@@ -1,0 +1,59 @@
+[19-Sep-2017 02:05:31 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 15
+[19-Sep-2017 02:05:31 UTC] PHP Stack trace:
+[19-Sep-2017 02:05:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 02:07:04 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 15
+[19-Sep-2017 02:07:04 UTC] PHP Stack trace:
+[19-Sep-2017 02:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 02:27:56 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 15
+[19-Sep-2017 02:27:56 UTC] PHP Stack trace:
+[19-Sep-2017 02:27:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 02:27:56 UTC] PHP   2. rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:15
+[19-Sep-2017 02:28:39 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 15
+[19-Sep-2017 02:28:39 UTC] PHP Stack trace:
+[19-Sep-2017 02:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 02:28:39 UTC] PHP   2. rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:15
+[19-Sep-2017 02:28:40 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 15
+[19-Sep-2017 02:28:40 UTC] PHP Stack trace:
+[19-Sep-2017 02:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 02:28:40 UTC] PHP   2. rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:15
+[19-Sep-2017 02:28:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 15
+[19-Sep-2017 02:28:44 UTC] PHP Stack trace:
+[19-Sep-2017 02:28:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 02:28:44 UTC] PHP   2. rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:15
+[19-Sep-2017 02:28:44 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 15
+[19-Sep-2017 02:28:44 UTC] PHP Stack trace:
+[19-Sep-2017 02:28:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 02:28:44 UTC] PHP   2. rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:15
+[19-Sep-2017 03:41:15 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 20
+[19-Sep-2017 03:41:15 UTC] PHP Stack trace:
+[19-Sep-2017 03:41:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 03:41:15 UTC] PHP   2. printFirstName() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:37
+[19-Sep-2017 03:41:15 UTC] PHP   3. generateFirstName() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:31
+[19-Sep-2017 03:47:47 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 19
+[19-Sep-2017 03:47:47 UTC] PHP Stack trace:
+[19-Sep-2017 03:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 03:47:47 UTC] PHP   2. mt_rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:19
+[19-Sep-2017 03:47:47 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 20
+[19-Sep-2017 03:47:47 UTC] PHP Stack trace:
+[19-Sep-2017 03:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 03:47:47 UTC] PHP   2. mt_rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:20
+[19-Sep-2017 03:47:47 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 20
+[19-Sep-2017 03:47:47 UTC] PHP Stack trace:
+[19-Sep-2017 03:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 03:47:47 UTC] PHP   2. mt_rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:20
+[19-Sep-2017 03:47:48 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 19
+[19-Sep-2017 03:47:48 UTC] PHP Stack trace:
+[19-Sep-2017 03:47:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 03:47:48 UTC] PHP   2. mt_rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:19
+[19-Sep-2017 03:47:48 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 20
+[19-Sep-2017 03:47:48 UTC] PHP Stack trace:
+[19-Sep-2017 03:47:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 03:47:48 UTC] PHP   2. mt_rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:20
+[19-Sep-2017 03:47:48 UTC] PHP Warning:  mt_rand(): max(-1) is smaller than min(0) in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 20
+[19-Sep-2017 03:47:48 UTC] PHP Stack trace:
+[19-Sep-2017 03:47:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 03:47:48 UTC] PHP   2. mt_rand() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:20
+[19-Sep-2017 04:28:49 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/eaanstad/hw/hw2/index.php on line 20
+[19-Sep-2017 04:28:49 UTC] PHP Stack trace:
+[19-Sep-2017 04:28:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:0
+[19-Sep-2017 04:28:49 UTC] PHP   2. generateFirstName() /home/ubuntu/workspace/eaanstad/hw/hw2/index.php:35

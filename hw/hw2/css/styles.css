@@ -1,0 +1,67 @@
+body{
+    color: black;
+}
+
+footer{
+    font-size: .7em;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+h3, h1{
+    font-family: 'Amatic SC', cursive;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+
+input {
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    width: 200px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+}
+
+#Creator {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+
+
+#content{
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(131, 92, 59, 0.4);
+}
+
+#content:hover{
+    background-color: rgba(131, 92, 59, 1);
+    transition: 1s;
+}
+
+#nameMeaning {
+    height: 150px;
+}
+
+#nameMeaning:hover {
+    transition: 2s;
+    height: 200px;
+}
+
+
+
+
