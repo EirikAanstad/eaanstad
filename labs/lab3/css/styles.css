@@ -1,8 +1,19 @@
+.body {
+    display: block;
+    margin: 0px;
+}
+
 .ace{
     border:yellow 2px solid;
 }
 
+div {
+    display: block;
+}
+
+
 #main {
+    width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
