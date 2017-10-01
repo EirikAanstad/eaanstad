@@ -4,8 +4,7 @@
 // function getImages() {
 
 if ( isset($_GET['keyword'])) {
-    $backgroundImage = "img/sea.jpg";
-    
+
     echo "keyword typed: " .  $_GET['keyword'] . "<br />";
     echo "layout selected: " .  $_GET['layout'] . "<br />";
     echo "layout selected: " .  $_GET['category'] . "<br />";
@@ -23,6 +22,7 @@ if ( isset($_GET['keyword'])) {
       $imageURLs = getImageURLs($_GET['keyword']);
     }
     
+    $randomBackground = rand(0, 100);
 
     
     //print_r($imageURLs);
@@ -40,7 +40,7 @@ if ( isset($_GET['keyword'])) {
          <style>
             @import url(css/styles.css);
             body {
-            background-image: url('<?=$backgroundImage?>')
+              background-image: url(<?=$imageURLs[$randomBackground]?>);
             }
         </style>
     </head>
@@ -102,6 +102,10 @@ if ( isset($_GET['keyword'])) {
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="6"></li>
               </ol>
             
               <!-- Wrapper for slides -->
@@ -124,7 +128,31 @@ if ( isset($_GET['keyword'])) {
                     ...
                   </div>
                 </div>                
-                ...
+                <div class="item">
+                  <img src="<?=$imageURLs[3]?>" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>                
+                 <div class="item">
+                  <img src="<?=$imageURLs[4]?>" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>                
+                 <div class="item">
+                  <img src="<?=$imageURLs[5]?>" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>                
+                 <div class="item">
+                  <img src="<?=$imageURLs[6]?>" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>                
+                 ...
               </div>
             
               <!-- Controls -->
