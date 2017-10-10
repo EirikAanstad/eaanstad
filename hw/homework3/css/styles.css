@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer{
+    clear: left;
+    font-size: .7em;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
