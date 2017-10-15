@@ -69,11 +69,7 @@ function getRandomQuote() {
 
 }
 
-//print_r($records);
-
-// while ($row = $stmt -> fetch())  {
-//     echo  $row['firstName'] . ", " . $row['lastName'] .  " " . $row['gender'] . "<br />";
-// }
+$name = $record['firstName'] . " " . $record['lastName'];
 
 
 ?>
@@ -82,15 +78,25 @@ function getRandomQuote() {
 <html>
     <head>
         <title> Lab 5: Random Famous Quote Generator </title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
-    <body>
-
-
-    <?=getRandomQuote()?>        
-
-<br />
-    <iframe name="authorInfo" width="500" height="300"></iframe>
-
+    <body class = "mainBody">
+        <div class="container">
+            <div class = "quote">
+                <?=getRandomQuote()?>
+            </div>
+            <form>
+                <input type="submit" name="get" value="Get Quote"/>
+            </form>
+            <div class = "infoContainer">
+                <iframe class ="authorInfo" name = "authorInfo"></iframe>
+            </div>
+        </div>
     </body>
 </html>
 

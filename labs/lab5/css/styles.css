@@ -1,0 +1,31 @@
+
+
+.mainBody {
+    background-color: green;
+}
+
+.container {
+    margin: 0;
+    text-align: center;
+}
+
+.quote {
+    font-size: 2em;
+}
+
+.authorBody {
+    background-color: white;
+}
+
+.authorBody h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.authorInfo {
+    height: 1080px;
+    width: 760px;
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+}
