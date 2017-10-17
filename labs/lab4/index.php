@@ -82,18 +82,7 @@ if ( isset($_GET['keyword'])) {
           return;
           exit;
         }
-            //user has submitted the form!
-            
-            //echo "carousel of images should be displayed here!";
-            
-            //getImages();
-            
-            //shuffle($imageURLs);
-            
-            //echo "<img src='$imageURLs[0]' width='200'>";
-            //echo "<img src='$imageURLs[1]' width='200'>";
-            //echo "<img src='$imageURLs[2]' width='200'>";
-            
+   
             ?>
             
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">

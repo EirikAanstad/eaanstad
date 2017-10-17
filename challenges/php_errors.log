@@ -1,0 +1,83 @@
+[12-Sep-2017 17:23:57 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:23:57 UTC] PHP Stack trace:
+[12-Sep-2017 17:23:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:23:57 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:23:57 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:23:57 UTC] PHP Stack trace:
+[12-Sep-2017 17:23:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:23:57 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:10 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:10 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:10 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:10 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:10 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:10 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:11 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:11 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:11 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:11 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:11 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:11 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:11 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:11 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:11 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:11 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:11 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:11 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:13 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:13 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:13 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:13 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:13 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:13 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:13 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:13 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:13 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:13 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:13 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:13 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:14 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:14 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:14 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:24:14 UTC] PHP Warning:  Missing argument 2 for displayCard(), called in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 34 and defined in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 15
+[12-Sep-2017 17:24:14 UTC] PHP Stack trace:
+[12-Sep-2017 17:24:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:24:14 UTC] PHP   2. displayCard() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:34
+[12-Sep-2017 17:27:44 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 35
+[12-Sep-2017 17:27:44 UTC] PHP Stack trace:
+[12-Sep-2017 17:27:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:27:45 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 35
+[12-Sep-2017 17:27:45 UTC] PHP Stack trace:
+[12-Sep-2017 17:27:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:27:46 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 35
+[12-Sep-2017 17:27:46 UTC] PHP Stack trace:
+[12-Sep-2017 17:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:27:46 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 35
+[12-Sep-2017 17:27:46 UTC] PHP Stack trace:
+[12-Sep-2017 17:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:27:47 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 35
+[12-Sep-2017 17:27:47 UTC] PHP Stack trace:
+[12-Sep-2017 17:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:27:47 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 35
+[12-Sep-2017 17:27:47 UTC] PHP Stack trace:
+[12-Sep-2017 17:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:27:47 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 35
+[12-Sep-2017 17:27:47 UTC] PHP Stack trace:
+[12-Sep-2017 17:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:32:56 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 50
+[12-Sep-2017 17:32:56 UTC] PHP Stack trace:
+[12-Sep-2017 17:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
+[12-Sep-2017 17:32:57 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php on line 50
+[12-Sep-2017 17:32:57 UTC] PHP Stack trace:
+[12-Sep-2017 17:32:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/challenges/challenge2/index.php:0
