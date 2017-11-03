@@ -1,0 +1,30 @@
+.loginForm {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: solid gray;
+}
+
+h3 {
+    color: red;
+}
+
+
+.bottomButtons {
+    margin-top: 25px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.adminBody {
+    text-align: center;
+    margin: auto;
+}
+
+.main {
+    text-align: left;
+    margin-left: 40%;
+}
