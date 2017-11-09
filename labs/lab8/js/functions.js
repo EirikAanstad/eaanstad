@@ -31,7 +31,7 @@ document.getElementById("losses").innerHTML = losses;
 
 
 function checkGuess() {
-    directions.style.height = "400px";
+    directions.style.height = "450px";
     var userGuess = $("#guessField").val();
     if(isNaN(userGuess)) {
         alert("Please enter a number");
@@ -93,7 +93,7 @@ function setGameOver() {
 
 function resetGame() {
     guessCount = 1;
-    
+    directions.style.height = "250px";
     var resetParas = document.querySelectorAll('.resultParas p');
     for (var i = 0 ; i < resetParas.length ; i++) {
         resetParas[i].textContent = '';
