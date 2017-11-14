@@ -25,6 +25,9 @@ guessField.focus();
 
 console.log(victories);
 console.log(losses);
+console.log(randomNumber);
+
+alert(randomNumber);
 
 document.getElementById("victories").innerHTML = victories;
 document.getElementById("losses").innerHTML = losses;
@@ -32,7 +35,7 @@ document.getElementById("losses").innerHTML = losses;
 
 function checkGuess() {
     directions.style.height = "450px";
-    var userGuess = $("#guessField").val();
+    var userGuess = Number(guessField.value);    
     if(isNaN(userGuess)) {
         alert("Please enter a number");
         return;
@@ -69,9 +72,9 @@ function checkGuess() {
         lastResult.innerHTML = 'Wrong!';
         lastResult.style.backgroundColor = 'red';
         if(userGuess < randomNumber) {
-            lowOrHi.innerHTML = 'Last guess was too low!';
+            $("#lowOrHi").html("Last gues was to low")
         } else if(userGuess > randomNumber) {
-            lowOrHi.innerHTML = 'Last guess was too high!';
+            $("#lowOrHi").html("Last gues was too high!")
         }
     }
     
@@ -93,7 +96,7 @@ function setGameOver() {
 
 function resetGame() {
     guessCount = 1;
-    directions.style.height = "250px";
+    directions.style.height = "450px";
     var resetParas = document.querySelectorAll('.resultParas p');
     for (var i = 0 ; i < resetParas.length ; i++) {
         resetParas[i].textContent = '';
