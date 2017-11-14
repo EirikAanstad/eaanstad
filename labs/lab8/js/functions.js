@@ -25,9 +25,7 @@ guessField.focus();
 
 console.log(victories);
 console.log(losses);
-console.log(randomNumber);
 
-alert(randomNumber);
 
 document.getElementById("victories").innerHTML = victories;
 document.getElementById("losses").innerHTML = losses;
@@ -96,7 +94,7 @@ function setGameOver() {
 
 function resetGame() {
     guessCount = 1;
-    directions.style.height = "450px";
+    directions.style.height = "250px";
     var resetParas = document.querySelectorAll('.resultParas p');
     for (var i = 0 ; i < resetParas.length ; i++) {
         resetParas[i].textContent = '';
