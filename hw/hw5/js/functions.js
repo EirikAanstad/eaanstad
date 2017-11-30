@@ -118,7 +118,7 @@ function checkQuizJS() {
 }
 
 function countPoints() {
-    
+        displayPoints.innerHTML = 'You got ' + points + ' Points!';
     if(points >= 5) {
         result.style.color = 'green';
         result.innerHTML = 'Congratulations you got more than 80% right';
