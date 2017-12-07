@@ -13,10 +13,9 @@
             data: {"name":$("#keyword").val(), "sort":sort},
             success:function(data) {
                 if (data == false) {
-                    $("#mainBody").html("nah son");
-                    $("#searchBox").css({ 'margin-top': '150px' });
+                    $("#ERROR").html("No Pokemon found!");
                 } else {
-                    $("#searchBox").css({ 'margin-top': '10px' });
+                    $("#ERROR").html("");
                     for(var i = 0; i < data.length; i++) {
                         console.log(data[i]);
                         createDiv(i, data);

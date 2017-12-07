@@ -29,10 +29,10 @@ include 'inc/functions.php';
         </form>
     </div>
     
-
-    <h1 id="ERROR"></h1>
+    
+    <h1 id="ERROR" class="error"></h1>
+ 
     <div id="mainBody">
-
     </div> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>

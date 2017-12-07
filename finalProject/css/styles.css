@@ -93,3 +93,11 @@ body{
 .pokemonDisplay table {
     margin-top: 30px;
 }
+
+.error {
+    background-color: white;
+    width: 300px;
+    color: red;
+    margin: 0 auto;
+    text-align: center;
+}
