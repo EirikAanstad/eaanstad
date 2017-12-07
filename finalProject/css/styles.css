@@ -1,0 +1,95 @@
+body{ 
+    background: url('../img/bg.jpg')no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.adminContainer {
+    background-color: #3F61A6;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    width: 600px;
+    padding: 25px 50px;
+    font-family: 'Rubik', sans-serif;   
+}
+
+.loginForm {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 600px;
+    background-color: #3F61A6;
+    border-radius: 10px;
+    padding: 25px 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.loginForm h1{
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.adminPanel{
+    margin: auto;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 800px;
+    padding: 50px 40px;
+    
+}
+
+#logoutButton {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+.adminButtons{
+    margin-top: 40px;
+    float: left;
+    font-weight: bold;
+}
+
+
+#success{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.searchContainer {
+    width: 400px;
+    padding: 100px 50px;
+    background: url('../img/pokeball.png')no-repeat center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: 'Rubik', sans-serif;   
+}
+
+
+
+.pokemonDisplay {
+    font-family: 'Rubik', sans-serif;   
+    background-color: white;
+    width: 700px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.pokemonDisplay table {
+    margin-top: 30px;
+}
