@@ -33,7 +33,6 @@ if (isset($_GET['goBack'])) {
         <title> Adding New Author</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">

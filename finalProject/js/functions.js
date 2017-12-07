@@ -26,32 +26,6 @@
         });
     }
     
-    $(document).ready(function() {
-        $("#displayAll").click(function() { displayAll() });
-    });
-    function displayAll() {
-        $( "#mainBody" ).empty();
-        $.ajax({
-            type: "GET",
-            url: "api/searchApi.php",
-            dataType: "json",
-            data: {"name":''},
-            success:function(data) {
-                if (data == false) {
-                    $("#mainBody").html("nah son");
-                    $("#searchBox").css({ 'margin-top': '150px' });
-                } else {
-                    $("#searchBox").css({ 'margin-top': '10px' });
-                    for(var i = 0; i < data.length; i++) {
-                        console.log(data[i]);
-                        createDiv(i, data);
-                    }   
-                }
-            }
-        });
-    }
-    
-    
     
     function createDiv(i, data){
         console.log(data);
