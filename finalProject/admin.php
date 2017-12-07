@@ -13,6 +13,7 @@ include 'inc/functions.php';
     <head>
         <title> Admin Section  </title>
         <meta charset="utf-8">
+        <link rel="icon" href="img/Pikachu_Sprite.gif"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
