@@ -20,8 +20,8 @@ include 'inc/functions.php';
         <form onsubmit="return false">  
             <div class="form-group">
                 <input type="text" placeholder="search by name" class="form-control" name="keyword" id="keyword"/>
-                <label class="radio-inline"><input type="radio" name="optradio" checked value="sortByName">Sort by Name</label>
-                <label class="radio-inline"><input type="radio" name="optradio" value="sortByDex">Sort by National №</label>
+                <label class="radio-inline" style="background-color:white;"><input type="radio" name="optradio" checked value="sortByName">Sort by Name</label>
+                <label class="radio-inline" style="background-color:white;"><input type="radio" name="optradio" value="sortByDex">Sort by National №</label>
             </div>
             <div class="form-group">
                 <input type="submit" value="Search!" id="search" class="btn btn-primary"/>
