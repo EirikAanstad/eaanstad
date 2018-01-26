@@ -1,3 +1,684 @@
 [07-Sep-2017 17:54:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/eaanstad/practice/randomBgColor.php on line 11
 [07-Sep-2017 17:54:35 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/eaanstad/practice/randomBgColor.php on line 11
 [10-Oct-2017 18:13:08 UTC] PHP Parse error:  syntax error, unexpected '"<br />"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/eaanstad/practice/join.php on line 30
+[05-Dec-2017 01:46:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pokemon.q_login' doesn't exist' in /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php on line 27
+[05-Dec-2017 02:48:08 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php on line 3
+[05-Dec-2017 02:48:08 UTC] PHP Stack trace:
+[05-Dec-2017 02:48:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php:0
+[05-Dec-2017 02:48:08 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php on line 3
+[05-Dec-2017 02:48:08 UTC] PHP Stack trace:
+[05-Dec-2017 02:48:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php:0
+[05-Dec-2017 02:48:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php on line 4
+[05-Dec-2017 02:48:08 UTC] PHP Stack trace:
+[05-Dec-2017 02:48:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php:0
+[05-Dec-2017 02:59:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.p_admin' doesn't exist' in /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php on line 20
+[05-Dec-2017 03:04:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/loginProcess.php on line 19
+[05-Dec-2017 03:20:24 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 12
+[05-Dec-2017 03:20:24 UTC] PHP Stack trace:
+[05-Dec-2017 03:20:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[05-Dec-2017 03:20:24 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 12
+[05-Dec-2017 03:20:24 UTC] PHP Stack trace:
+[05-Dec-2017 03:20:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[05-Dec-2017 03:20:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 13
+[05-Dec-2017 03:20:24 UTC] PHP Stack trace:
+[05-Dec-2017 03:20:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[05-Dec-2017 04:16:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE primaryId=typeId' at line 6' in /home/ubuntu/workspace/eaanstad/finalProject/admin.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/admin.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/eaanstad/finalProject/admin.php(46): displayPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 21
+[05-Dec-2017 04:26:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'secondaryId = typeId AS secondaryType' at line 4' in /home/ubuntu/workspace/eaanstad/finalProject/admin.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/admin.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/eaanstad/finalProject/admin.php(44): displayPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 19
+[05-Dec-2017 04:27:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'secondaryId = typeId AS secondaryType' at line 4' in /home/ubuntu/workspace/eaanstad/finalProject/admin.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/admin.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/eaanstad/finalProject/admin.php(44): displayPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 19
+[05-Dec-2017 05:35:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Bul'%' at line 4' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 15
+[05-Dec-2017 05:35:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'w'%' at line 4' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 15
+[05-Dec-2017 05:35:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 4' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 15
+[05-Dec-2017 05:35:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 4' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 15
+[05-Dec-2017 05:36:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 4' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 15
+[05-Dec-2017 05:36:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Bulbasaur'%' at line 4' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 15
+[05-Dec-2017 05:36:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 4' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 15
+[05-Dec-2017 18:41:50 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/eaanstad/pokemonDbConn.php:3) in /home/ubuntu/workspace/eaanstad/pokemonDbConn.php on line 3
+[05-Dec-2017 18:41:50 UTC] PHP Stack trace:
+[05-Dec-2017 18:41:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[05-Dec-2017 18:41:50 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:59
+[05-Dec-2017 18:42:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 34
+[05-Dec-2017 18:42:28 UTC] PHP Stack trace:
+[05-Dec-2017 18:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[05-Dec-2017 18:42:28 UTC] PHP   2. displaySecondary() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:60
+[05-Dec-2017 18:42:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 34
+[05-Dec-2017 18:42:57 UTC] PHP Stack trace:
+[05-Dec-2017 18:42:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[05-Dec-2017 18:42:57 UTC] PHP   2. displaySecondary() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:60
+[05-Dec-2017 18:44:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 21
+[05-Dec-2017 18:44:00 UTC] PHP Stack trace:
+[05-Dec-2017 18:44:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[05-Dec-2017 18:44:00 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:61
+[05-Dec-2017 18:44:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 21
+[05-Dec-2017 18:44:21 UTC] PHP Stack trace:
+[05-Dec-2017 18:44:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[05-Dec-2017 18:44:21 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:61
+[05-Dec-2017 19:08:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT type as PrimaryType   
+            FROM p_pokemon
+            NATURAL JOI' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/admin.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/admin.php(26): PDOStatement->execute()
+#1 /home/ubuntu/workspace/eaanstad/finalProject/admin.php(52): displayPokemon()
+#2 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 26
+[05-Dec-2017 19:31:57 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 12
+[05-Dec-2017 19:31:57 UTC] PHP Stack trace:
+[05-Dec-2017 19:31:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:31:57 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 12
+[05-Dec-2017 19:31:57 UTC] PHP Stack trace:
+[05-Dec-2017 19:31:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:31:57 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 13
+[05-Dec-2017 19:31:57 UTC] PHP Stack trace:
+[05-Dec-2017 19:31:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:32:34 UTC] PHP Warning:  include(../pokemonDbConn): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 12
+[05-Dec-2017 19:32:34 UTC] PHP Stack trace:
+[05-Dec-2017 19:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:32:34 UTC] PHP Warning:  include(): Failed opening '../pokemonDbConn' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 12
+[05-Dec-2017 19:32:34 UTC] PHP Stack trace:
+[05-Dec-2017 19:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:32:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 13
+[05-Dec-2017 19:32:34 UTC] PHP Stack trace:
+[05-Dec-2017 19:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:32:35 UTC] PHP Warning:  include(../pokemonDbConn): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 12
+[05-Dec-2017 19:32:35 UTC] PHP Stack trace:
+[05-Dec-2017 19:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:32:35 UTC] PHP Warning:  include(): Failed opening '../pokemonDbConn' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 12
+[05-Dec-2017 19:32:35 UTC] PHP Stack trace:
+[05-Dec-2017 19:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:32:35 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 13
+[05-Dec-2017 19:32:35 UTC] PHP Stack trace:
+[05-Dec-2017 19:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:33:10 UTC] PHP Fatal error:  Call to undefined function displayCountryOptions() in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 102
+[05-Dec-2017 19:33:10 UTC] PHP Stack trace:
+[05-Dec-2017 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:0
+[05-Dec-2017 19:33:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pokemon.p_types' doesn't exist' in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php(102): displayTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 20
+[05-Dec-2017 20:24:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php(71): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 71
+[05-Dec-2017 20:27:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php(71): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 71
+[05-Dec-2017 20:29:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php(71): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 71
+[05-Dec-2017 20:34:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php(71): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 71
+[05-Dec-2017 20:36:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php(71): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 71
+[05-Dec-2017 21:28:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'note' in 'field list'' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 19
+[05-Dec-2017 21:30:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM p_pokemon
+            NATURAL JOIN p_pokemonType
+            NATURAL JOIN p' at line 6' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 19
+[05-Dec-2017 21:49:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Articuno' in 'where clause'' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 12
+[05-Dec-2017 22:23:24 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 4
+[05-Dec-2017 22:31:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysql_query('SET CHARACTER SET utf8') SELECT * 
+        FROM p_pokemon
+        W' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 11
+[05-Dec-2017 22:33:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysql_query('SET CHARACTER SET utf8'), 
+        SELECT * 
+        FROM p_pokemon' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 12
+[05-Dec-2017 22:34:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysql_query('SET CHARACTER SET utf8'), 
+        SELECT * 
+        FROM p_pokemon' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 12
+[05-Dec-2017 23:18:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'u'%' at line 9' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 17
+[05-Dec-2017 23:18:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'u'%' at line 9' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 17
+[05-Dec-2017 23:32:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 19
+[06-Dec-2017 00:06:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 19
+[06-Dec-2017 00:06:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 19
+[06-Dec-2017 00:07:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters' in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/searchApi.php on line 19
+[06-Dec-2017 03:32:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/index.php on line 6
+[06-Dec-2017 03:32:56 UTC] PHP Stack trace:
+[06-Dec-2017 03:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 03:32:56 UTC] PHP   2. displayTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:54
+[06-Dec-2017 03:32:56 UTC] PHP   3. getTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:14
+[06-Dec-2017 03:33:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/index.php on line 6
+[06-Dec-2017 03:33:29 UTC] PHP Stack trace:
+[06-Dec-2017 03:33:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 03:33:29 UTC] PHP   2. displayTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:55
+[06-Dec-2017 03:33:29 UTC] PHP   3. getTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:14
+[06-Dec-2017 03:33:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/index.php on line 6
+[06-Dec-2017 03:33:53 UTC] PHP Stack trace:
+[06-Dec-2017 03:33:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 03:33:53 UTC] PHP   2. displayTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:55
+[06-Dec-2017 03:33:53 UTC] PHP   3. getTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:14
+[06-Dec-2017 03:35:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/index.php on line 6
+[06-Dec-2017 03:35:12 UTC] PHP Stack trace:
+[06-Dec-2017 03:35:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 03:35:12 UTC] PHP   2. displayTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:55
+[06-Dec-2017 03:35:12 UTC] PHP   3. getTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:14
+[06-Dec-2017 03:37:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/index.php on line 6
+[06-Dec-2017 03:37:14 UTC] PHP Stack trace:
+[06-Dec-2017 03:37:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 03:37:14 UTC] PHP   2. displayTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:52
+[06-Dec-2017 03:37:14 UTC] PHP   3. getTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:14
+[06-Dec-2017 03:37:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/index.php on line 6
+[06-Dec-2017 03:37:43 UTC] PHP Stack trace:
+[06-Dec-2017 03:37:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 03:37:43 UTC] PHP   2. displayTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:52
+[06-Dec-2017 03:37:43 UTC] PHP   3. getTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:14
+[06-Dec-2017 03:38:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/index.php on line 6
+[06-Dec-2017 03:38:43 UTC] PHP Stack trace:
+[06-Dec-2017 03:38:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 03:38:43 UTC] PHP   2. displayTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:52
+[06-Dec-2017 03:38:43 UTC] PHP   3. getTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:14
+[06-Dec-2017 03:38:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/index.php on line 6
+[06-Dec-2017 03:38:49 UTC] PHP Stack trace:
+[06-Dec-2017 03:38:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 03:38:49 UTC] PHP   2. displayTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:52
+[06-Dec-2017 03:38:49 UTC] PHP   3. getTypes() /home/ubuntu/workspace/eaanstad/finalProject/index.php:14
+[06-Dec-2017 17:15:10 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:15:10 UTC] PHP Stack trace:
+[06-Dec-2017 17:15:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 17:15:10 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/index.php:4
+[06-Dec-2017 17:15:10 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:15:10 UTC] PHP Stack trace:
+[06-Dec-2017 17:15:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 17:15:10 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/index.php:4
+[06-Dec-2017 17:15:52 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:15:52 UTC] PHP Stack trace:
+[06-Dec-2017 17:15:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 17:15:52 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/index.php:4
+[06-Dec-2017 17:15:52 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:15:52 UTC] PHP Stack trace:
+[06-Dec-2017 17:15:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/index.php:0
+[06-Dec-2017 17:15:52 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/index.php:4
+[06-Dec-2017 17:16:45 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:16:45 UTC] PHP Stack trace:
+[06-Dec-2017 17:16:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:16:45 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:16:45 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:16:45 UTC] PHP Stack trace:
+[06-Dec-2017 17:16:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:16:45 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:16:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:16:45 UTC] PHP Stack trace:
+[06-Dec-2017 17:16:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:16:45 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:36
+[06-Dec-2017 17:17:09 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/eaanstad/pokemonDbConn.php:3) in /home/ubuntu/workspace/eaanstad/pokemonDbConn.php on line 3
+[06-Dec-2017 17:17:09 UTC] PHP Stack trace:
+[06-Dec-2017 17:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:17:09 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:17:40 UTC] PHP Warning:  include(../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 11
+[06-Dec-2017 17:17:40 UTC] PHP Stack trace:
+[06-Dec-2017 17:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:17:40 UTC] PHP Warning:  include(): Failed opening '../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 11
+[06-Dec-2017 17:17:40 UTC] PHP Stack trace:
+[06-Dec-2017 17:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:17:40 UTC] PHP Warning:  include(../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:17:40 UTC] PHP Stack trace:
+[06-Dec-2017 17:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:17:40 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:17:40 UTC] PHP Warning:  include(): Failed opening '../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:17:40 UTC] PHP Stack trace:
+[06-Dec-2017 17:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:17:40 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:17:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 4
+[06-Dec-2017 17:17:40 UTC] PHP Stack trace:
+[06-Dec-2017 17:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:17:40 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:18:48 UTC] PHP Warning:  include(../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:18:48 UTC] PHP Stack trace:
+[06-Dec-2017 17:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:18:48 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:18:48 UTC] PHP Warning:  include(): Failed opening '../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:18:48 UTC] PHP Stack trace:
+[06-Dec-2017 17:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:18:48 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:18:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:18:48 UTC] PHP Stack trace:
+[06-Dec-2017 17:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:18:48 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:36
+[06-Dec-2017 17:20:03 UTC] PHP Warning:  include(../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:20:03 UTC] PHP Stack trace:
+[06-Dec-2017 17:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:20:03 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:20:03 UTC] PHP Warning:  include(): Failed opening '../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:20:03 UTC] PHP Stack trace:
+[06-Dec-2017 17:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:20:03 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:20:03 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:20:03 UTC] PHP Stack trace:
+[06-Dec-2017 17:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:20:03 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:36
+[06-Dec-2017 17:20:20 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/eaanstad/finalProject/pokemonDbConn.php:3) in /home/ubuntu/workspace/eaanstad/finalProject/pokemonDbConn.php on line 3
+[06-Dec-2017 17:20:20 UTC] PHP Stack trace:
+[06-Dec-2017 17:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:20:20 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:20:29 UTC] PHP Warning:  include(inc/pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 11
+[06-Dec-2017 17:20:29 UTC] PHP Stack trace:
+[06-Dec-2017 17:20:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:20:29 UTC] PHP Warning:  include(): Failed opening 'inc/pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/admin.php on line 11
+[06-Dec-2017 17:20:29 UTC] PHP Stack trace:
+[06-Dec-2017 17:20:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:20:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:20:29 UTC] PHP Stack trace:
+[06-Dec-2017 17:20:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:20:29 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:36
+[06-Dec-2017 17:20:55 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/eaanstad/finalProject/inc/pokemonDbConn.php:3) in /home/ubuntu/workspace/eaanstad/finalProject/inc/pokemonDbConn.php on line 3
+[06-Dec-2017 17:20:55 UTC] PHP Stack trace:
+[06-Dec-2017 17:20:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:20:55 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:21:14 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/eaanstad/finalProject/inc/pokemonDbConn.php:3) in /home/ubuntu/workspace/eaanstad/finalProject/inc/pokemonDbConn.php on line 3
+[06-Dec-2017 17:21:14 UTC] PHP Stack trace:
+[06-Dec-2017 17:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:21:14 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:26:42 UTC] PHP Warning:  include(pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:26:42 UTC] PHP Stack trace:
+[06-Dec-2017 17:26:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:26:42 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:26:42 UTC] PHP Warning:  include(): Failed opening 'pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:26:42 UTC] PHP Stack trace:
+[06-Dec-2017 17:26:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:26:42 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:26:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:26:42 UTC] PHP Stack trace:
+[06-Dec-2017 17:26:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:26:42 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:36
+[06-Dec-2017 17:27:24 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:27:24 UTC] PHP Stack trace:
+[06-Dec-2017 17:27:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:27:24 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:27:24 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:27:24 UTC] PHP Stack trace:
+[06-Dec-2017 17:27:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:27:24 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:27:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:27:24 UTC] PHP Stack trace:
+[06-Dec-2017 17:27:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:27:24 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:36
+[06-Dec-2017 17:30:36 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 7
+[06-Dec-2017 17:30:36 UTC] PHP Stack trace:
+[06-Dec-2017 17:30:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:30:36 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:30:36 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 7
+[06-Dec-2017 17:30:36 UTC] PHP Stack trace:
+[06-Dec-2017 17:30:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:30:36 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:12
+[06-Dec-2017 17:30:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 20
+[06-Dec-2017 17:30:36 UTC] PHP Stack trace:
+[06-Dec-2017 17:30:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:30:36 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:36
+[06-Dec-2017 17:31:04 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 7
+[06-Dec-2017 17:31:04 UTC] PHP Stack trace:
+[06-Dec-2017 17:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:31:04 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:31:04 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 7
+[06-Dec-2017 17:31:04 UTC] PHP Stack trace:
+[06-Dec-2017 17:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:31:04 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:31:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 20
+[06-Dec-2017 17:31:04 UTC] PHP Stack trace:
+[06-Dec-2017 17:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:31:04 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:32:51 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 7
+[06-Dec-2017 17:32:51 UTC] PHP Stack trace:
+[06-Dec-2017 17:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:32:51 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:32:51 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 7
+[06-Dec-2017 17:32:51 UTC] PHP Stack trace:
+[06-Dec-2017 17:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:32:51 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:32:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 20
+[06-Dec-2017 17:32:51 UTC] PHP Stack trace:
+[06-Dec-2017 17:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:32:51 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:47:04 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:47:04 UTC] PHP Stack trace:
+[06-Dec-2017 17:47:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:47:04 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:47:04 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:47:04 UTC] PHP Stack trace:
+[06-Dec-2017 17:47:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:47:04 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:47:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:47:04 UTC] PHP Stack trace:
+[06-Dec-2017 17:47:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:47:04 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:47:44 UTC] PHP Warning:  include(/../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:47:44 UTC] PHP Stack trace:
+[06-Dec-2017 17:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:47:44 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:47:44 UTC] PHP Warning:  include(): Failed opening '/../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:47:44 UTC] PHP Stack trace:
+[06-Dec-2017 17:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:47:44 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:47:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:47:44 UTC] PHP Stack trace:
+[06-Dec-2017 17:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:47:44 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:47:49 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/eaanstad/pokemonDbConn.php:3) in /home/ubuntu/workspace/eaanstad/pokemonDbConn.php on line 3
+[06-Dec-2017 17:47:49 UTC] PHP Stack trace:
+[06-Dec-2017 17:47:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:47:49 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:48:05 UTC] PHP Warning:  include(../../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:48:05 UTC] PHP Stack trace:
+[06-Dec-2017 17:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:48:05 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:48:05 UTC] PHP Warning:  include(): Failed opening '../../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:48:05 UTC] PHP Stack trace:
+[06-Dec-2017 17:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:48:05 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:48:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:48:05 UTC] PHP Stack trace:
+[06-Dec-2017 17:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:48:05 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:51:10 UTC] PHP Warning:  include_once(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:51:10 UTC] PHP Stack trace:
+[06-Dec-2017 17:51:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:51:10 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:51:10 UTC] PHP Warning:  include_once(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:51:10 UTC] PHP Stack trace:
+[06-Dec-2017 17:51:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:51:10 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:51:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:51:10 UTC] PHP Stack trace:
+[06-Dec-2017 17:51:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:51:10 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:52:25 UTC] PHP Warning:  include_once(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:52:25 UTC] PHP Stack trace:
+[06-Dec-2017 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:52:25 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:52:25 UTC] PHP Warning:  include_once(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:52:25 UTC] PHP Stack trace:
+[06-Dec-2017 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:52:25 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:52:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:52:25 UTC] PHP Stack trace:
+[06-Dec-2017 17:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:52:25 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:52:31 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:52:31 UTC] PHP Stack trace:
+[06-Dec-2017 17:52:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:52:31 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:52:31 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:52:31 UTC] PHP Stack trace:
+[06-Dec-2017 17:52:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:52:31 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:52:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:52:31 UTC] PHP Stack trace:
+[06-Dec-2017 17:52:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:52:31 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:54:40 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:54:40 UTC] PHP Stack trace:
+[06-Dec-2017 17:54:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:54:40 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:54:40 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:54:40 UTC] PHP Stack trace:
+[06-Dec-2017 17:54:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:54:40 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:54:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:54:40 UTC] PHP Stack trace:
+[06-Dec-2017 17:54:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:54:40 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:54:52 UTC] PHP Warning:  include(../../pokemonDbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:54:52 UTC] PHP Stack trace:
+[06-Dec-2017 17:54:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:54:52 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:54:52 UTC] PHP Warning:  include(): Failed opening '../../pokemonDbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 3
+[06-Dec-2017 17:54:52 UTC] PHP Stack trace:
+[06-Dec-2017 17:54:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:54:52 UTC] PHP   2. include() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:14
+[06-Dec-2017 17:54:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 16
+[06-Dec-2017 17:54:52 UTC] PHP Stack trace:
+[06-Dec-2017 17:54:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:54:52 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:37
+[06-Dec-2017 17:56:00 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/eaanstad/pokemonDbConn.php:3) in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 27
+[06-Dec-2017 17:56:00 UTC] PHP Stack trace:
+[06-Dec-2017 17:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:58:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 32
+[06-Dec-2017 17:58:36 UTC] PHP Stack trace:
+[06-Dec-2017 17:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:0
+[06-Dec-2017 17:58:36 UTC] PHP   2. displayPokemon() /home/ubuntu/workspace/eaanstad/finalProject/admin.php:35
+[06-Dec-2017 18:00:16 UTC] PHP Fatal error:  Call to undefined function getAuthorInfo() in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 61
+[06-Dec-2017 18:00:16 UTC] PHP Stack trace:
+[06-Dec-2017 18:00:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:0
+[06-Dec-2017 18:02:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 36
+[06-Dec-2017 18:06:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 8' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 34
+[06-Dec-2017 18:06:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 8' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 33
+[06-Dec-2017 18:06:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 8' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 33
+[06-Dec-2017 18:07:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 8' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 33
+[06-Dec-2017 18:12:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 8' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 33
+[06-Dec-2017 18:13:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'dexId'' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 31
+[06-Dec-2017 18:14:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '142' for key 'dexId'' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 31
+[06-Dec-2017 18:19:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '143' for key 'dexId'' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 31
+[06-Dec-2017 18:19:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '141' for key 'dexId'' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 31
+[06-Dec-2017 18:21:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 45
+[06-Dec-2017 18:21:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '142' for key 'dexId'' in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 31
+[06-Dec-2017 19:10:14 UTC] PHP Warning:  include(inc/function.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 9
+[06-Dec-2017 19:10:14 UTC] PHP Stack trace:
+[06-Dec-2017 19:10:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:0
+[06-Dec-2017 19:10:14 UTC] PHP Warning:  include(): Failed opening 'inc/function.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 9
+[06-Dec-2017 19:10:14 UTC] PHP Stack trace:
+[06-Dec-2017 19:10:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:0
+[06-Dec-2017 19:10:14 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 10
+[06-Dec-2017 19:10:14 UTC] PHP Stack trace:
+[06-Dec-2017 19:10:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:0
+[06-Dec-2017 19:11:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 17
+[06-Dec-2017 19:15:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 15
+[06-Dec-2017 19:16:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 15
+[06-Dec-2017 19:16:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 15
+[06-Dec-2017 19:19:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 15
+[06-Dec-2017 19:19:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 15
+[06-Dec-2017 19:20:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 15
+[06-Dec-2017 19:20:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 15
+[06-Dec-2017 19:21:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/deletePokemon.php on line 15
+[07-Dec-2017 00:52:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '791' for key 'dexId'' in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/addPokemon.php on line 31
+[07-Dec-2017 03:44:19 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php on line 55
+[07-Dec-2017 03:45:42 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 53
+[07-Dec-2017 03:45:42 UTC] PHP Stack trace:
+[07-Dec-2017 03:45:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php:0
+[07-Dec-2017 03:52:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT type as PrimaryType   
+            FROM p_pokemon
+            NATURAL JOI' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(18): getPokemonInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 56
+[07-Dec-2017 03:53:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT type as PrimaryType   
+            FROM p_pokemon
+            NATURAL JOI' at line 1' in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/eaanstad/finalProject/updatePokemon.php(18): getPokemonInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/eaanstad/finalProject/inc/functions.php on line 56

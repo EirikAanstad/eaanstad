@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript and jQuery Practice </title>
+        <script>
+            
+            var name;
+            
+            name = "John";
+            
+            //alert("My name is " + name);
+            
+            console.log(name);
+            
+            function displayName() {
+                name;
+               // name =  document.getElementById("userName").value;  //Javascript
+                
+                name = $("#userName").val(); //jQuery
+                
+                
+                
+                $("#displayName").html(name); //jQuery
+                
+                
+                //console.log(name.length);
+                //alert(name);
+            }
+            
+        </script>
+    </head>
+    <body>
+
+        <h1> JavaScript and jQuery</h1>
+
+
+        
+        Enter your name: <input type="text" id="userName" />
+        <form onsubmit="return false">
+           <input type="submit" value="Name length" onclick="displayName()" />
+           <button onclick="displayName()"> Display Name! </button>
+        </form>  
+        
+        
+        <h3 id="displayName"></h3>
+   <h3></h3>
+    <h3></h3>
+     <h3></h3>
+      <h3></h3>
+       <h3></h3>
+        <h3></h3>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>

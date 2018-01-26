@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript and jQuery Practice</title>
+        <style>
+            #error {
+                color: red;
+            }
+        </style>
+        <script>
+            //var name;
+            
+            //name = "Eirik";
+            
+            //alert("My name is " + name);
+            
+            function displayName(){
+                //var name =  document.getElementById("userName").value;
+                //var l = name.length;
+                var num1 = document.getElementById("num1").value;
+                var num2 = document.getElementById("num2").value;
+                
+                
+                if (isNaN(num1) || isNaN(num2)) {
+                    document.getElementById("error").innerHTML = "Error<br>input must be a number";
+                    document.getElementById("displayVictory").innerHTML = " ";
+                } else if (num1 > 50 || num2 > 50 || num1 < 0 || num2 < 0) {
+                    document.getElementById("error").innerHTML = "Error<br>Numbers cannot be greater than 50 or lower than 1!";
+                    document.getElementById("displayVictory").innerHTML = " ";
+                } else if (num1 > num2) {
+                    document.getElementById("error").innerHTML = "";
+                    document.getElementById("displayVictory").innerHTML = num1 + " is greater than " + num2;
+                } else if (num2 > num1) {
+                    document.getElementById("error").innerHTML = " ";
+                    document.getElementById("displayVictory").innerHTML = num2 + " is greater than " + num1;
+                }
+                }
+        </script>
+    </head>
+    <body>
+
+        <h1>Comparing Two Numbers</h1>
+        
+        
+        
+        Number 1: <input type="text" id="num1" /> <br>
+        Number 2: <input type="text" id="num2" />
+        <form onsubmit="return false">
+            <input type="submit" value="Compare!" onclick="displayName()"/>
+        </form>
+        <h3 id="displayVictory"></h3>
+        <h3 id="error"></h3>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>
